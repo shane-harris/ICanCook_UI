@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OnlyUI2</string>
+    <string name="logo" />
+    <string name="createButton" />
+    <string name="sign_in">Sign In</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="go_to_recipes">Go to Recipes</string>
+</resources>

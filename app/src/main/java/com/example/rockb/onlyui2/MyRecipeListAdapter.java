@@ -1,3 +1,5 @@
+package com.example.rockb.onlyui2;
+
 import android.content.Context;
 import android.support.design.widget.Snackbar;
 import android.view.LayoutInflater;
@@ -6,8 +8,6 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.example.rockb.onlyui2.R;
 
 
 import java.util.ArrayList;
@@ -95,6 +95,9 @@ public class MyRecipeListAdapter extends BaseExpandableListAdapter {
 
         final View finalConvertView = convertView;
         recipeText.setOnClickListener(buttonClickListener);
+/*After testing to make sure reconfigure works it will be safe to delete the commented
+* segment below*/
+
         /*recipeText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

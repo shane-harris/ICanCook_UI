@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             switch (v.getId()) {
                 case R.id.create_button: {
                     Snackbar.make(v, "Create Button Clicked", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();;
+                            .setAction("Action", null).show();
                     break;
                 }
                 case R.id.sign_in_button: {
@@ -60,6 +60,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
-    
+
 
 }

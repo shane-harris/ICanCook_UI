@@ -7,26 +7,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:id="@+id/recipe_icon"/>
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:id="@+id/add_to_fav_icon"/>
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:id="@+id/recipe_text"
             android:paddingLeft="45sp"
             android:paddingTop="12sp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_toRightOf="@id/recipe_text"
+            android:layout_toRightOf="@+id/recipe_icon"
             android:layout_toStartOf="@+id/add_to_fav_icon"/>
 
     </RelativeLayout>
